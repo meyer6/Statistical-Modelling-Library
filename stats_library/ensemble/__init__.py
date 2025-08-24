@@ -1,6 +1,8 @@
-from ._forest import RandomForestClassifier, RandomForestRegressor
+from ._forest import RandomForestClassifier, RandomForestRegressor, AdaBoostClassifier, GradientBoostingRegressor
 
 __all__ = [
     "RandomForestClassifier",
-    "RandomForestRegressor"
+    "RandomForestRegressor",
+    "AdaBoostClassifier",
+    "GradientBoostingRegressor",
 ]
